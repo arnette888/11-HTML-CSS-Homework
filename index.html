@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Analytics - HW 11</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <a class="navbar-brand" href="#">Data Analtics HW-11</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+             </li>
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+				   <div class="dropdown-divider"></div>
+                   <a class="dropdown-item" href="humidity.html">Humidity</a>
+                  <div class="dropdown-divider"></div>
+                   <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+				   <div class="dropdown-divider"></div>
+				   <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                </div>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="comparison.html">Comparison</a>
+             </li>
+          </ul>
+          
+       </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-center">
+       <h1 class="display-4">Data Analitics Homework 11&nbsp;&nbsp;</h1>
+       <p class="lead">Web Design Homework - Web Visualization Dashboard&nbsp; &nbsp;</p>
+    </div>
+    <div class="container">
+       <div class="row text-center">
+          <div class="col-lg-6 offset-lg-3 offset-xl-1 col-xl-10">
+            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.&nbsp;</p>
+            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+          </div>
+       </div>
+       <br>
+       <hr>
+       <br>
+       <div class="row">
+          <div class="col-md-6">
+             <div class="card">
+               <img class="card-img-top" src="images/Fig1.png" alt="Card image cap">
+                <div class="card-body">
+                   <h4 class="card-title">Max Temperature</h4>
+<br><br>
+                   <a href="comparison.html" class="btn btn-primary">Max Temp</a>
+               </div>
+             </div>
+          </div>
+          <div class="col-md-6">
+             <div class="card">
+               <img class="card-img-top" src="images/Fig2.png" alt="Card image cap">
+                <div class="card-body">
+                   <h4 class="card-title">Humidity</h4>
+<br><br>
+                   <a href="humidity.html" class="btn btn-primary">Humidity</a>
+               </div>
+             </div>
+          </div>
+          <div class="col-md-6">
+             <div class="card">
+               <img class="card-img-top" src="images/Fig3.png" alt="Card image cap">
+                <div class="card-body">
+                   <h4 class="card-title">Cloudiness</h4>
+<br><br>
+                   <a href="cloudiness.html" class="btn btn-primary">Cloudiness</a>
+               </div>
+             </div>
+          </div>          <div class="col-md-6">
+             <div class="card">
+               <img class="card-img-top" src="images/Fig4.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Wind Speed</h4>
+<br><br>
+                   <a href="windspeed.html" class="btn btn-primary">Wind Speed</a>
+               </div>
+             </div>
+          </div>
+      </div>
+  </div>
+       <br/>
+       <br/>
+<br/>
+  <br/>
+<br>
+<hr>
+       <div class="row">
+         <div class="text-center col-lg-6 offset-lg-3">
+           <h4>David Allan Hutchinson</h4>
+            <p>Copyright &copy; 2020 • Home • All Rights Reserved<a href="#" >&nbsp;</a></p>
+          </div>
+       </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
